@@ -1,4 +1,3 @@
-#base_dir=/home/shrini/shrinivas/Dev/my_progs/baseLibs
 
 top_makefile=$(base_dir)/Makefile
 
@@ -71,5 +70,7 @@ clean:
 	
 
 cleanAll:	clean
-	rm -rf $(output_dir)/*
+	rm -rf $(output_dir)/obj/
+	rm -rf $(output_dir)/lib/
+	rm -rf $(output_dir)/app/
 	

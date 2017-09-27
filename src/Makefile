@@ -1,6 +1,3 @@
-#base_dir=/home/shrini/shrinivas/Dev/my_progs/baseLibs
-
-#top_makefile=$(base_dir)/Makefile
 
 #######################################
 #######  DIRECTORY DECLARATIONS ########
